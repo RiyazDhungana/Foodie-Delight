@@ -1,0 +1,266 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+body
+{
+    background-image: url(Menu1.jpg);
+    background-size: contain;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font: size 0.8rem;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    border: 0;
+    color: lavender;
+    box-shadow: 0 0 3px white, 0 0 7px white, 0 0 20px white;
+}
+nav ul li a:active
+{
+    text-decoration: underline;
+}
+.left {
+    font-size: 1.3rem;
+    color: lavender;
+    font-family: 'Poppins', sans-serif;
+
+}
+.body
+{
+    margin-top: 5vh;
+    position: absolute;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.itm1
+{   padding: 50px;
+    width: 15vw;
+    height: 50vh; 
+    border-radius: 20px;
+    margin-left: 100px;
+    position: relative;
+    background-color: #d4c5aa;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 0 7px lavender, 0 0 10px lavender,0 0 15px lavender, 0 0 20px lavender;
+}
+.itm2
+{
+    margin-left: 60px;
+    width: 15vw;
+    height: 50vh;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #8b3103;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 0 7px lavender, 0 0 10px lavender,0 0 15px lavender, 0 0 20px lavender;
+}
+.itm3
+{
+    margin-left: 60px;
+    width: 15vw;
+    padding: 50px;
+    height: 50vh;
+    position: relative;
+    border-radius: 20px;
+    background-color:#829191;
+    margin-right: 100px;
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0 0 7px lavender, 0 0 10px lavender,0 0 15px lavender, 0 0 20px lavender;
+}
+ h1{
+    color: white;
+    margin-left: 30vw;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+img
+{
+margin-left: -20px;
+  width:200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.content
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-size:20px;
+    letter-spacing: 2px;
+}
+.contents
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.description
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 5px;
+    font-size:12px;
+    letter-spacing: 2px;
+}
+.container
+{
+    margin-top: 30px;
+}
+#footer
+{
+    margin-top: 1500px;
+    height: 80px;
+    padding: 15px;
+    width: 97.41%;
+    background-color: black;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footerright
+{
+ margin-top: 5px;
+ margin-left: 30px;
+ padding:10px;
+ color: white;
+}
+
+.footer
+{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .body {
+        width: calc(50% - 40px); 
+    }
+
+    .h1 {
+        font-size: 24px;
+    }
+
+    .content,
+    .contents,
+    .description {
+        font-size: 14px;
+    }
+    nav ul li a:hover
+{
+    box-shadow: none;
+}
+img{
+    width: max-content;
+    height: max-content;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .body {
+        width: calc(100% - 40px); 
+        margin: 0 20px 30px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .content,
+    .contents,
+    .description {
+        font-size: 12px;
+    }
+
+#footer {
+    margin-top: 1500px;
+    height: 80px;
+    padding: 15px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+nav ul li a:hover
+{
+    box-shadow: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerright {
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.footer {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+img{
+    width: max-content;
+    height: max-content;
+}
+}
+

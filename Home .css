@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(Body.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font: size 0.8rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 0.8rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    box-shadow: 0 0 7px lavender, 0 0 10px lavender,0 0 15px lavender, 0 0 20px lavender;
+}
+
+.left {
+    font-size: 1.3rem;
+
+}
+.content{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.Details
+{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.btn1 button{
+    
+    color: lavender;
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color:rgb(187, 151, 83);
+    transition: 0.3s ease;
+    cursor:pointer;
+
+}
+.btn1 button:hover{
+    background-color: lavender(255,166,0);
+    box-shadow: 0 0 5px lavender,
+                 0 0 20px lavender,
+                 0 0 60px lavender,
+                 0 0 150px lavender;
+}
+#footer
+{
+    margin-top: 300px;
+    height: 80px;
+    padding: 15px;
+    width: 97.41%;
+    background-color: black;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footerright
+{
+ margin-top: 10px;
+ margin-left: 30px;
+ padding:5px;
+}
+
+.footer
+{
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 15px; 
+    }
+
+    .content {
+        margin-top: 80px; 
+        margin-left: 20px; 
+    }
+
+    .content h1,
+    .content h2,
+    .Details {
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .content {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .content h1,
+    .content h2,
+    .Details {
+        font-size: 30px;
+    }
+
+    .btn1 button {
+        width: 150px;
+        height: 30px;
+    }
+    @media screen and (max-width: 768px) {
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    .content {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .content h1,
+    .content h2,
+    .Details {
+        font-size: 30px;
+    }
+
+    .btn1 button {
+        width: 150px;
+        height: 30px;
+    }
+    body{
+        height: max-content;
+    }
+}
+
+/* Media Query for Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .content {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    nav ul li :hover
+     {
+       box-shadow: none;
+    }
+    .content h1,
+    .content h2,
+    .Details {
+        font-size: 24px;
+    }
+
+    .btn1 button {
+        width: 120px;
+        height: 28px;
+        margin-top: 15px;
+    }
+
+    #footer {
+        margin-top: 100px;
+    }
+
+    .footerright {
+        margin-left: 10px;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+    body{
+        height: max-content;
+    }
+}
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        height: 60px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .content {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .content h1,
+    .content h2,
+    .Details {
+        font-size: 24px;
+    }
+    nav ul li :hover
+    {
+      box-shadow: none;
+   }
+
+    .btn1 button {
+        width: 120px;
+        height: 28px;
+        margin-top: 15px;
+    }
+
+    #footer {
+        margin-top: 100px;
+    }
+
+    .footerright {
+        margin-left: 10px;
+    }
+
+    .footer {
+        font-size: 8px;
+    }
+}
+
